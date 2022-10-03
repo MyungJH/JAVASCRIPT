@@ -2,4 +2,28 @@
 
 // 構文(HTMLコード)
 <script src = "JavaScriptファイルのパス" defer></script> // JavaScriptのファイルを読み込む
+// scriptタグのdefer属性は、HTMLの解析完了後にJavaScriptを実行するための指定
 
+
+// 例
+<!doctype html>
+<html lang = "ja">  // 言語は日本語
+<head>
+  <meta charset = "UTF-8">
+  <title></title>
+  <link rel = "stylesheet" href = "style.css"/> // 外部スタイルシート
+  <script src = "main.js" defer></script> // main.jsを読み込む
+ </head>
+ <body></body>
+ </html>
+ 
+ //JavaScriptファイルのパス指定
+ 1. 相対パスで指定する例
+ <script src = "./script/main.js" defer></script>
+ 2. ルートパスで指定する例
+ <script src = "/project/script/main.js" defer></script>
+ 3. 絶対パスで指定する例
+ <script src = "https://example.com/scipt/main.js" defer></script>
+ 
+ 
+ 
