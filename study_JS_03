@@ -1,0 +1,5 @@
+// JavaScriptを別のファイルに書く方法
+
+// 構文(HTMLコード)
+<script src = "JavaScriptファイルのパス" defer></script> // JavaScriptのファイルを読み込む
+
