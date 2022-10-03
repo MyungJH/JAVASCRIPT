@@ -1,0 +1,9 @@
+// 計算プログラムを書く方法
+
+// 例
+console.log(10 + 20); // 30,  加算
+console.log(40 - 20); // 20,  減算
+console.log(10 * 20); // 200, 乗算
+console.log(40 / 20); // 2, 除算
+console.log(13 % 2); //  1, 除算の余り
+console.log(2 ** 3); // 8,  数値のべき乗
