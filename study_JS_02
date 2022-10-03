@@ -1,0 +1,23 @@
+// JavaScriptの書き方
+// JavaScriptはブラウザーで動作できるので、HTMLを使ってJavaScriptを使う準備をする
+// HTML内のscriptタグで囲んだ箇所がJavaScriptの記述場所
+
+// 構文
+<script> JavaScriptの処理 </script>  // JavaScriptの処理を記述する
+
+// 例
+<!doctype html>
+<html lang = "ja">  // 言語は日本語
+<head>
+  <meta charset = "UTF-8">
+  <title></title>
+  <link rel = "stylesheet" href = "style.css"/> // 外部スタイルシート
+  <script>
+    alert('こんにちは'); // アラートを出す命令文
+  </script>
+ </head>
+ <body></body>
+ </html>
+ 
+ // Scriptタグは基本的にどこに書いてもOK
+ 
